@@ -10,6 +10,8 @@ body {
   --secondary-accent-color: #f4f4fd;
   --primary-color: #434455;
   --active-link-color: #404bbf;
+  --items: 3;
+  --indent: 24px;
 }
 /*Header section*/
 .header {
@@ -150,8 +152,6 @@ background-color: #FFFFFF;
   color: var(--brand-color);
 }
 .team-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -210,4 +210,24 @@ background-color: #FFFFFF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+}
+/* Home work three*/
+.container{
+  width: 1158px;
+}
+.page-container{
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+  flex-grow: 1;
+}
+.card-set{
+display: flex;
+flex-wrap: wrap;
+gap: var(--indent);
+}
+.card-set-item{
+flex-basis: calc((100% - var(--indent) • (var(--¡tems) - 1)) / var(--items));
 }
