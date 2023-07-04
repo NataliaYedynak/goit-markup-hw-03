@@ -16,6 +16,8 @@ body {
 /*Header section*/
 .header {
   background: #ffffff;
+  height: 72px;
+  flex-shrink: 0;
 }
 .list {
   list-style: none;
@@ -70,6 +72,8 @@ body {
 }
 /*Hero section*/
 .hero {
+  height: 600px;
+  flex-shrink: 0;
   background: var(--brand-color);
 }
 .hero-title {
@@ -99,6 +103,8 @@ body {
 }
 /*Benefits section*/
 .benefits-item{
+  height: 104px;
+  flex-shrink: 0;
   background-color: #FFFFFF;
 }
 .benefits-titles {
@@ -126,6 +132,11 @@ body {
   text-transform: capitalize;
   color: var(--brand-color);
 }
+.services-link{
+  display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 /*Team section*/
 .team {
   background-color: #f4f4fd;
@@ -141,6 +152,14 @@ body {
   color: var(--brand-color);
 }
 .team-item{
+  display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 background-color: #FFFFFF;
 }
 .team-titles {
@@ -159,6 +178,8 @@ background-color: #FFFFFF;
 }
 /*Footer section*/
 .footer {
+  height: 312px;
+  flex-shrink: 0;
   background: var(--brand-color);
 }
 .footer-logo {
@@ -189,6 +210,12 @@ background-color: #FFFFFF;
   cursor: pointer;
   color: var(--primary-accent-color);
   background-color: var(--secondary-accent-color);
+  display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
 }
 .main-button:hover {
   color: #ffffff;
@@ -232,6 +259,14 @@ flex-wrap: wrap;
 gap: var(--indent);
 }
 .card-set-item{
+  display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
 flex-basis: calc((100% - var(--indent) • (var(--¡tems) - 1)) / var(--items));
 }
 .section{
