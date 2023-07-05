@@ -348,6 +348,7 @@ main {
 }
 .hero-list{
   display: flex;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 72px
 }
@@ -367,4 +368,11 @@ main {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.portfolio-header-container{
+  display: flex;
+}
+.portfolio-header-navigation{
+  display: flex;
+  align-items: center;
 }
