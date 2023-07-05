@@ -372,7 +372,3 @@ main {
 .portfolio-header-container{
   display: flex;
 }
-.portfolio-header-navigation{
-  display: flex;
-  align-items: center;
-}
