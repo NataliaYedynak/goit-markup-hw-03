@@ -350,7 +350,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
 .portfolio-conteiner{
   padding: 32px 16px;
