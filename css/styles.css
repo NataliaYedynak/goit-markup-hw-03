@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: var(--primary-white-color);
 }
+img{
+  display: block;
+}
 :root {
   --primary-white-color: #ffffff;
   --brand-color: #2e2f42;
@@ -272,12 +275,6 @@ body {
 .header-container {
   display: flex;
 }
-.portfolio-header-container{
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .header-list {
   display: flex;
   gap: 40px;
@@ -311,6 +308,7 @@ main {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 }
 .card-set-item {
   width: calc((100% - 48px) / 3);
@@ -368,7 +366,4 @@ main {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.portfolio-header-container{
-  display: flex;
 }
